@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-const About = () => {
-  return <div>An app to find Github users.</div>;
-};
+const About = () => (
+  <Fragment>
+    <h1>About this app</h1>
+    <p>An app to find Github users.</p>
+  </Fragment>
+);
 
 export default About;
